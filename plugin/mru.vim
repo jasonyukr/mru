@@ -25,6 +25,8 @@ endif
 let s:cpo_save = &cpoptions
 set cpoptions&vim
 
+let MRU_Max_Entries = 7000
+
 " MRU configuration variables {{{1
 " Maximum number of entries allowed in the MRU list
 if !exists('MRU_Max_Entries')
